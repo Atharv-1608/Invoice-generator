@@ -51,7 +51,7 @@ const Preview: React.FC<Props> = ({
         <div className="info-left">
           <h2>Invoice for</h2>
           <p>{clientDetails.name}</p>
-          <p>{clientDetails.adress}</p>
+          <p>{clientDetails.address}</p>
           <p className="gst">
             GST No: <span>{clientDetails.gst}</span>
           </p>

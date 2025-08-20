@@ -65,7 +65,7 @@ function App() {
     travel: "",
   });
 
-  const [loading, setLoading] = useState(false);
+  const [loading, ] = useState(false);
   const previewRef = useRef<HTMLDivElement>(null);
 
   const downloadPDF = async () => {
