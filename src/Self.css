@@ -1,0 +1,27 @@
+.self-container {
+  background-color: #fcd34d; /* amber-300 */
+  width: 33%;
+  min-height: auto;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.self-title {
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.self-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.self-form input,
+.self-form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}

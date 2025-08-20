@@ -1,0 +1,124 @@
+.preview {
+  padding: 36px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.preview-header-line {
+  width: 100%;
+  height: 8px;
+  background-color: #1e3a8a; /* Tailwind blue-900 */
+  margin-bottom: 24px;
+}
+
+.preview-self h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.preview-self h3 {
+  white-space: pre-line;
+  margin: 4px 0;
+}
+.preview-self h2:last-child {
+  font-size: 16px;
+}
+
+.preview-title {
+  margin-top: 36px;
+  margin-bottom: 16px;
+}
+.invoice-text {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1d4ed8; /* blue-700 */
+}
+.submitted-text {
+  color: #be185d; /* pink-700 */
+  font-weight: 600;
+}
+
+.preview-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  padding: 40px;
+  width: 100%;
+  text-align: left;
+}
+.info-left h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.info-left .gst {
+  color: #6b7280;
+  font-weight: 500;
+}
+.info-left .gst span {
+  color: #374151;
+}
+
+.info-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  text-align: right;
+  color: #111827;
+}
+.info-right h3 {
+  font-weight: bold;
+}
+
+.preview-table {
+  width: 100%;
+  margin-top: 40px;
+  padding: 0 40px;
+}
+.preview-table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+.preview-table th,
+.preview-table td {
+  padding: 12px;
+  border-bottom: 2px solid #e5e7eb;
+}
+.preview-table th {
+  color: #1e3a8a;
+  font-weight: bold;
+}
+.preview-table td:nth-child(2),
+.preview-table th:nth-child(2) {
+  text-align: center;
+}
+.preview-table td:nth-child(3),
+.preview-table th:nth-child(3) {
+  text-align: right;
+}
+.subtotal {
+  margin-top: 16px;
+  text-align: right;
+  font-weight: 600;
+  color: #1e3a8a;
+}
+
+.preview-bank {
+  margin-top: 36px;
+  text-align: left;
+}
+.preview-bank div:first-child {
+  font-size: 18px;
+  color: #4b5563;
+}
+.bank-info {
+  margin-top: 16px;
+  font-weight: 600;
+  color: #111827;
+}
+.bank-info p {
+  margin: 4px 0;
+}

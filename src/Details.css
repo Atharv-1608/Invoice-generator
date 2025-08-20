@@ -1,0 +1,30 @@
+.details-container {
+  background-color: #fcd34d; /* Tailwind's amber-300 */
+  width: 33%;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.details-heading {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.details-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.details-inputs input {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.details-inputs input:focus {
+  outline: none;
+  border-color: #f59e0b; /* Tailwind amber-500 */
+  box-shadow: 0 0 4px rgba(245, 158, 11, 0.5);
+}
